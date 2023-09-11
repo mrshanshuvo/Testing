@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.home-button,
+.about-me-button,
+.contact-us-button{
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-family: Roboto,Arial;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.home-button:hover,
+.about-me-button:hover,
+.contact-us-button:hover{
+    background-color: lightpink;
+}
+
+.profile-picture-container{
+    height: 30px;
+}
+
+.profile-picture{
+    height: 100%;
+    margin-right: 5px;
+    border-radius: 50%;
+}
