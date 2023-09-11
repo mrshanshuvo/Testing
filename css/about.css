@@ -2,9 +2,11 @@
     font-family: Arial;
     font-weight: bold;
     font-size: 30px;
+    color: green;
 }
 
 .normal{
     font-family: arial;
     font-size: 30px;
+    color: red;
 }
